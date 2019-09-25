@@ -1,0 +1,63 @@
+/* override background for Navbar */
+.bg-navbar
+{
+    background-color: #e3f2fd
+}
+
+/* adds bold font to active link */
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active
+{
+    font-weight: bold;
+}
+
+#indexbody
+{
+    top: 100px;
+}
+
+#catstext
+{
+    font-size: 15pt;
+    height: 300px;
+}
+
+#catstext2
+{
+    font-size: 8pt;
+}
+
+#dogstext
+{
+    height: 50000px; /* to lengthen the page so scrolling is required */
+}
+
+.indextext
+{
+    top: 40px;
+}
+
+.header1
+{
+    font-size: 20pt;
+}
+
+body
+{
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+    background-attachment: fixed;
+}
+
+div
+{
+    position: relative;
+}
+
+footer
+{
+    padding-top: 50px; /* gives footer a larger for hover area for title */
+    padding-bottom: 25px; /* makes text float slightly above the bottom edge */
+}
